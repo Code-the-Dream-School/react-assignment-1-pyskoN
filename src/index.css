@@ -1,80 +1,79 @@
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-
-.container{
- width: 80%;
- margin: auto;
- min-height: 100vh;
+.container {
+  width: 80%;
+  margin: auto;
+  min-height: 100vh;
 }
 
-.center{
-  padding: 4%;
+.center {
+  padding: 2%;
   display: flex;
   flex-direction: column;
-  align-items: center
+  align-items: center;
 }
 
-.niceFont{
-  font-family: 'Architects Daughter', cursive;
+.niceFont {
+  font-family: "Architects Daughter", cursive;
 }
 
-.square{
+.square {
   margin: 1%;
   padding: 0;
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
 }
 
-.squareIcon{
-  margin: auto;
+.squareIcon {
+  margin: 1em;
   padding: 0;
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
 }
 
-.cell{
-  color: white;
-  background: black;
+.cell {
+  background: white;
   margin: 0;
   padding: 0;
+  font-size: 4em;
 }
 
-.row{
-display: flex;
-flex-wrap: nowrap;
+.row {
+  display: flex;
+  flex-wrap: nowrap;
 }
 
-.together{
+.together {
   display: flex;
   justify-content: space-around;
 }
 
-.icon{
-  width: 20px;
+.icon {
+  width: 40px;
 }
 
-.board{
+.board {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 2%;
 }
 
-.logo{
-  width: 150px;
-  height: 150px;
+.logo {
+  width: 200px;
+  height: 200px;
 }
